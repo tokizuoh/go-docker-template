@@ -9,7 +9,6 @@ if [ -e $MOD_FILE ]; then
     exit 0
 fi
 
-read module
 command=$(printf "go mod init github.com/%s/%s" $GITHUB_ID $MODULE)
 eval $command
 
