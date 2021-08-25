@@ -2,7 +2,6 @@
 
 source ./setup/.env
 
-readonly GITHUB_ID="tokizuoh"
 readonly MOD_FILE="go.mod"
 
 if [ -e $MOD_FILE ]; then
