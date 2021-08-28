@@ -6,10 +6,10 @@ Template files when building a Go development environment with docker.
 
 ```bash
 > docker --version
-Docker version 19.03.12, build 48a66213fe
+Docker version 20.10.8, build 3967b7d
 
 > docker-compose --version
-docker-compose version 1.27.2, build 18f557f9
+docker-compose version 1.29.2, build 5becea4c
 ```
   
 ## Build (docker-compose build)
