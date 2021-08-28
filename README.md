@@ -12,14 +12,20 @@ Docker version 19.03.12, build 48a66213fe
 docker-compose version 1.27.2, build 18f557f9
 ```
   
-## Build
+## Build (docker-compose build)
   
 ```bash
-> docker-compose up --build -d
+> make dc-build
 ```
   
 ## Run
   
 ```bash
-> docker-compose exec app go run main.go
+> make run
+```
+  
+## Tests
+  
+```bash
+> make test
 ```
